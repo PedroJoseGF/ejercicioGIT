@@ -4,9 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"/>
+    <title>Ejercicio GIT</title>
 </head>
 <body>
-    
+    <!-- HEADER -->
+    <header class="header">
+        <input type="checkbox" id="open-menu" class="header__checkbox" />
+        <label for="open-menu" class="header__open-nav-buttom" role="buttom"><i class="bi bi-three-dots-vertical"></i></label>
+        <!-- LOGO -->
+        <div class="header__logo-container">
+          <img
+            src="logo.svg"
+            alt="Logo Pedro José García Fernández"
+            class="header__logo logo--desktop"
+          />
+          <img
+            src="logo-movil.svg"
+            alt="Logo Pedro José García Fernández"
+            class="header__logo logo--mobile"
+          />
+        </div>
+        <!-- MENU -->
+        <nav class="header__nav">
+          <ul class="header__nav-list">
+            <li class="header__nav-item"><a href="">PERFIL</a></li>
+            <li class="header__nav-item"><a href="">PORTFOLIO</a></li>
+            <li class="header__nav-item"><a href="">CONTACTO</a></li>
+          </ul>
+        </nav>
+    </header>
 </body>
 </html>

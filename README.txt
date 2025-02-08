@@ -1,0 +1,1 @@
+Comprobar si genera conflictos.

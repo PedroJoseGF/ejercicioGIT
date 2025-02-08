@@ -1,0 +1,1 @@
+Este fichero es para contrastar conflictos entre ramas.

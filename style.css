@@ -309,3 +309,67 @@ h1 {
 }
 
 /* PORTFOLIO END */
+
+/* FORM SECTION */
+.form-section {
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+}
+
+
+.form__data {
+    padding: 10px 10dvw;
+}
+
+.form-field {
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.field-submit {
+    justify-content: center;
+}
+
+input {
+    border-radius: 5px;
+    margin-left: 20px;
+}
+
+/* FORM QUERIES */
+@media screen and (min-width: 600px) {
+    .form-section {
+        flex-direction: row;
+        padding: 20px;
+        background-color: transparent;
+        margin: auto;
+    }
+
+    .form__data-container {
+        background-color: #c4c4c4;
+        display: flex;
+        align-items: center;
+        border-radius: 20px;
+        max-width: 800px;
+    }
+
+    .form__data {
+        margin: 10px 30px;
+        padding: 10px 5dvw;
+    }
+
+    .form-title {
+        color: #000;
+    }
+
+    label {
+        font-size: 20px;
+    }
+
+    input {
+        padding: 5px 10px;
+    }
+}
+
+/* FORM END */
